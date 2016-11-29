@@ -1,0 +1,527 @@
+body{
+  width:1600px;
+  margin: 0px auto;
+  background-color:#000021;
+
+}
+#shade{
+  position: fixed;
+  bottom: 0px;
+  height: 50px;
+  width: 100%;
+}
+.background{
+  height:1500px;
+  position: relative;
+  margin-bottom:-92px;
+
+}
+.top{
+  width:1600px;
+  height:1200px;
+  position: absolute;
+  top:0;
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  /*z-index: 9999;*/
+}
+@-webkit-keyframes fadeIn {
+  from {    opacity: 0;  }
+  to {    opacity: 1;  }
+}
+
+.top img{
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+  animation-duration: 3s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  width:1188px;
+  height:732px;
+  margin-top: 70px;
+  margin-left:206px;
+}
+.bot{
+  width:1600px;
+  height:543px;
+  position: absolute;
+  bottom:0;
+  background-repeat: no-repeat;
+}
+.bar{
+  line-height: 60px;
+  width: 100%;
+  height: 279px;
+  border-top-width: 2px;
+  border-top-color: black;
+  border-top-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: black;
+  border-bottom-style: solid;
+
+  margin-top: 119px;
+}
+
+.left{
+    float:left;
+  font-family: "Perpetua Titling MT","Adobe Fangsong Std";
+  font-size: 35px;
+  margin-top: 40px;
+  text-align: center;
+  margin-left: 272px;
+  position: absolute;
+}
+.mid{
+  float:left;
+}
+.mid img{
+  margin-top: 40px;
+  margin-left: 715px;
+}
+.right{
+  font-family: "Perpetua Titling MT","Adobe Fangsong Std";
+  font-size: 35px;
+  margin-top: 40px;
+  text-align: center;
+  margin-left:930px;
+  position: absolute;
+}
+.photo {
+  clear: both;
+  width:100%;
+  height:900px;
+  background-attachment: fixed;
+  background-position: center center;
+}
+.word{
+  position: absolute;
+  margin-top: 65px;
+  margin-left:10%;
+}
+.word p{
+  font-family: "Perpetua Titling MT";
+  font-size: 80px;
+  color:#FFFFFF;
+  /*position: absolute;
+  margin-top: 100px;
+  margin-left:10%;*/
+}
+.SCIFI{
+  position: absolute;
+  text-align: right;
+  margin-top: 600px;
+  margin-left:50%;
+}
+.up{
+  float: r;
+}
+.up p{
+  font-size: 42px;
+  font-family: "Perpetua Titling MT";
+text-align: right;
+  color:#FFFFFF;
+  margin-bottom: 0px;
+}
+.up hr{
+  width: 100%;
+  border: 3px solid;
+  color: #FFFFFF;
+  margin: 0px;
+}
+.down{
+  float: left;
+  font-family:"Adobe Fangsong Std","Microsoft JhengHei UI";
+	font-size: 33px;
+  color:#FFFFFF;
+  margin-top: 10px;
+}
+.picture{
+  width:100%;
+  height:772px;
+}
+.face{
+  margin-top:-26px;
+  margin-bottom:21px;
+  width:100%;
+  text-align: center;
+  padding-top: 10px;
+}
+.face p{
+  font-family: "Perpetua Titling MT";
+  font-weight: bold;
+  font-size: 42px;
+  color:#FFFFFF;
+  margin-bottom: 0px;
+}
+.image{
+  float: left;
+  width: 1600px;
+  margin-left: 12px;
+}
+.image img{
+  width: 526px;
+  height: 526px;
+  margin-left: 0px;
+}
+/*.image img:first-child(){
+}*/
+
+@-webkit-keyframes fadeOut1 {
+  from {    opacity: 1;  }
+  to {    opacity: 0 ;  }
+}
+@-webkit-keyframes back1 {
+  from {    opacity: 0 ;  }
+  to {    opacity: 1;  }
+}
+.byebye {/*滑鼠移出時圖片淡入*/
+  -webkit-animation-name: back1;
+  animation-name: back1;
+  animation-duration: 0.5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.byebye:hover {/*滑鼠移至圖片時淡出*/
+  -webkit-animation-name: fadeOut1;
+  animation-name: fadeOut1;
+  animation-duration: 0.5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.emotion p{
+  font-family: "Perpetua Titling MT";
+  font-weight: bold;
+  font-size: 80px;
+  color:#FFFFFF;
+  margin-left: 600px;
+}
+.bar03{
+  background-repeat: no-repeat;
+  width:100%;
+  height:650px;
+}
+.bar03 img{
+  margin-top: 42px;
+  margin-left:153px;
+}
+.bar_word{
+  position: absolute;
+  margin-top: -260px;
+  height:170px;
+  width:1600px;
+  LINE-HEIGHT:70px;
+  background-color:rgba(0,0,0,0.2);  /*背景半透明黑色*/
+}
+.word_see p {
+  font-weight: bold;
+  font-family: "Perpetua Titling MT";
+  font-size: 42px;
+  text-align: center;
+  margin: 0px;
+  margin-top: 10px;
+  color:#FFFFFF;
+}
+.word_color p{
+  font-weight: bold;
+  font-family: "Perpetua Titling MT";
+  font-size: 80px;
+  text-align: center;
+  margin: 0px;
+  color:#FFFFFF;
+}
+@-webkit-keyframes fadeOut {
+  from {    opacity: 1;  }
+  to {    opacity: 0;  }
+}
+@-webkit-keyframes back {
+  from {    opacity: 0;  }
+  to {    opacity: 1;  }
+}
+.byebye2 {/*滑鼠移出時圖片淡入*/
+  -webkit-animation-name: back;
+  animation-name: back;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.byebye2:hover {/*滑鼠移至圖片時淡出*/
+  -webkit-animation-name: fadeOut;
+  animation-name: fadeOut;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.box{
+  width: 100%;
+  height: 279px;
+  border: 2px solid black;
+  margin-top: 119px;
+}
+.bot2{
+  height:1120px;
+  position: relative;
+  margin-bottom: -92px;
+}
+.story{
+  height:2000px;
+  width:100%;
+  background-color:#000021;
+  background-attachment: fixed;
+  background-position: center center;
+}
+.mid_story{
+  float: left;
+  height:1444px;
+  width:1274px;
+  margin-top:127px;
+  margin-left:166px;
+}
+.mid_story img{
+  margin-left: 46px;
+  margin-top:38px;
+}
+.wave_box{
+  width:100%;
+  height:900px;
+  background-color:#27d4ff;
+  background-attachment: fixed;
+  background-position: center center;
+}
+.wave_left{
+  float: left;
+}
+.wave_left p{
+  font-size: 42px;
+  font-family: "Perpetua Titling MT";
+  margin-left:300px;
+  margin-top: 730px;
+  margin-bottom: 0px;
+}
+.wave_left hr{
+  border: 3px solid black;
+  margin-left: 300px;
+}
+.wave_by p{
+  margin-top: 0px;
+  font-family: "Perpetua Titling MT";
+  font-size: 33px;
+}
+.wave_right{
+   float: left;
+   margin-left: 600px;
+   margin-top: 280px;
+font-family:"Adobe Fangsong Std","Microsoft JhengHei UI";
+   font-size: 42px;
+   -webkit-writing-mode: vertical-lr;  /*垂直文字 由左至右*/
+}
+
+.halloween{
+  position: relative;
+  z-index:1;
+
+  width:100%;
+  height:1004px;
+  background-position: center center;
+}
+.hallobox{
+
+      z-index: 1;
+  height:1004px;
+  width:100%;
+}
+.halloword{
+  position: absolute;
+  margin-top: 676px;
+  height:170px;
+  width:1600px;
+  LINE-HEIGHT:70px;
+  background-color:rgba(0,0,0,0.2);
+}
+.hallo_word1 {
+  font-weight: bold;
+  font-family: "Perpetua Titling MT";
+  font-size: 42px;
+  text-align: center;
+  color: white;
+  width:1600px;
+}
+.hallo_word2 {
+  font-weight: bold;
+  font-family: "Perpetua Titling MT";
+  font-size: 60px;
+  text-align: center;
+  color: white;
+}
+.colorcloud{
+  position: relative;
+  bottom: 0;
+width:1600px;
+height:543px;
+margin-top:-60px;
+z-index: 2;
+}
+.over2{
+    position: relative;
+  margin-top: -90px;
+  z-index:1;
+  width:1600px;
+  height:2076px;
+  color:white;
+  text-align: center;
+  font-family: "Perpetua Titling MT";
+  font-weight: bold;
+}
+
+#c1{
+  position: absolute;
+  margin-left: 213px;
+  margin-top:168px;
+  background-color:#c67679;
+}
+#c2{
+  position: absolute;
+  margin-left: 621px;
+  margin-top:168px;
+  background-color:#79bab7;
+}
+#c3{
+  position: absolute;
+  margin-left:1026px;
+  margin-top:168px;
+  background-color:#ac4993;
+}
+#c4{
+  position: absolute;
+  margin-left:213px;
+  margin-top:682px;
+  background-color:#f7b88a;
+}
+#c5{
+  position: absolute;
+  margin-left:925px;
+  margin-top:750px;
+  background-color:#dfdf93;
+}
+#c6{
+  position: absolute;
+  margin-left:213px;
+  margin-top:1238px;
+  background-color:#707993;
+}
+#c7{
+  position: absolute;
+  margin-left:813px;
+  margin-top:1430px;
+  background-color: #c1e5ed;
+}
+#w1{z-index: 5;
+  position: absolute;
+  margin-top: 200px;
+  width:100%;
+  font-size: 40px;
+}
+#w2{z-index: 5;
+  position: absolute;
+  margin-top: 200px;
+  width:100%;
+  font-size: 45px;
+}
+#w3{z-index: 5;
+  position: absolute;
+  margin-top: 250px;
+  width:100%;
+  font-size: 60px;
+}
+#w4{z-index: 5;
+  position: absolute;
+  margin-top: 200px;
+  width:100%;
+  font-size: 100px;
+}
+#w5{z-index: 5;
+  position: absolute;
+  margin-top: 140px;
+  width:100%;
+  font-size: 55px;
+}
+#w6{z-index: 5;
+  position: absolute;
+  margin-top: 250px;
+  width:100%;
+  font-size: 100px;
+}
+#w7{  z-index: 5;
+  position: absolute;
+  margin-top: 250px;
+  width:100%;
+  font-size: 80px;
+}
+@-webkit-keyframes fadeOut3 {
+  from {    opacity: 1;  }
+  to {    opacity: 0.2 ;  }
+}
+@-webkit-keyframes back3 {
+  from {    opacity: 0.2 ;  }
+  to {    opacity: 1;  }
+}
+.hi{/*滑鼠移出時圖片淡入*/
+  -webkit-animation-name: fadeOut3;
+  animation-name: fadeOut3;
+animation-duration: 0.5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.hi:hover {/*滑鼠移至圖片時淡出*/
+-webkit-animation-name: back3;
+  animation-name: back3; animation-duration: 0.5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.final{
+  width:100%;
+  height:897px;
+  background-position: center center;
+  margin-top: 0px;
+}
+.final_word{
+  font-family: "Perpetua Titling MT", "Perpetua";
+  height: 620px;
+  width:100%;
+  margin-top: 119px;
+  padding-top: 100px;
+  border-top-width: 2px;
+  border-top-color: black;
+  border-top-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: black;
+  border-bottom-style: solid;
+
+}
+.fi_01{
+  font-family: "Perpetua Titling MT", "Perpetua";
+  font-weight: bold;
+  font-size: 48px;
+  text-align: center;
+}
+.fi_02{
+  font-family: "Perpetua Titling MT", "Perpetua";
+  font-size: 30px;
+  text-align: center;
+  line-height: 50px;
+}
+
+.foot{
+  height:70px;
+  width:100%;
+  font-family: "Perpetua Titling MT", "Perpetua";
+  font-size: 30px;
+  color:white;
+  background-color: black;
+  padding-left: 880px;
+  padding-top: 15px;
+  box-sizing: border-box;
+}
